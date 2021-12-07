@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Reporte de inventario de vivienda</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+<script type="text/javascript">
+	
+	window.onpopstate = function() {
+  		alert("no regreses...");
+  		return false;
+	}
+</script>
+
+
+
+	<div class="bg-contact2" style="background-image: url('images/bg-01.jpg');">
+		<div class="container-contact2">
+			<div class="wrap-contact2">
+				<form class="contact2-form validate-form" method="post" action="registro.php">
+					
+					<span class="contact2-form-title">
+						Mision Mexico Ciudad Juarez
+					</span>
+					<center>
+						<h2>Reporte de inventario de vivienda</h1>
+					</center>
+					
+					<p>Este reporte se debe llenar cada vez que un misionero tenga cambios y llegue a su nueva area.</p>
+					<br>
+
+					<center>
+					
+					<div class="wrap-table100-nextcols js-pscroll">
+						<div class="table100-nextcols">
+							
+							<table>
+								
+								<thead>
+									<tr class="row100 head">
+										<th class="cell100 column2" colspan="7">Lista de verificacion</th>
+								</tr>
+									<tr class="row100 body">
+										<th colspan="2">Articulos</th>
+										<th colspan="2">¿Tienen y funciona?</th>
+										<th colspan="2">¿Es propiedad de la mision?</th>
+										<th >Cantidad</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr class="row100 body">
+										<td colspan="2">Boiler</td>
+										<td>
+											<input type="radio" name="boiler" value="Si" required> Si</input>
+										</td>
+										<td>
+											<input type="radio" name="boiler" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="boiler1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="boiler1" value="No" required>No</input>
+										</td>
+										<td>
+											<select  name="boilerc" required>
+												<option value="0"  name="boilerc">0</option>
+  												<option value="1"  name="boilerc">1</option>
+  												<option value="2"  name="boilerc" >2</option>
+  												<option value="3"  name="boilerc">3</option>
+ 											    <option value="4"  name="boilerc">4</option>
+ 											    <option value="5"  name="boilerc">5</option>
+  												<option value="6"  name="boilerc">6</option>
+  												<option value="7"  name="boilerc">7</option>
+ 											    <option value="8"  name="boilerc">8</option>
+ 											    <option value="9"  name="boilerc">9</option>
+ 											    <option value="10"  name="boilerc">10</option>
+											</select>
+										</td>
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Refrigerador</td>
+										<td>
+											<input type="radio" name="refrigerador" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="refrigerador" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="refrigerador1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="refrigerador1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="refrigeradorc" required> 
+												<option value="0" name="refrigeradorc">0</option>
+  												<option value="1" name="refrigeradorc">1</option>
+  												<option value="2" name="refrigeradorc">2</option>
+  												<option value="3" name="refrigeradorc">3</option>
+ 											    <option value="4" name="refrigeradorc">4</option>
+ 											    <option value="5" name="refrigeradorc">5</option>
+  												<option value="6" name="refrigeradorc">6</option>
+  												<option value="7" name="refrigeradorc">7</option>
+ 											    <option value="8" name="refrigeradorc">8</option>
+ 											    <option value="9" name="refrigeradorc">9</option>
+ 											    <option value="10" name="refrigeradorc" >10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Calenton</td>
+										<td>
+											<input type="radio" name="calenton" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="calenton" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="calenton1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="calenton1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="calentonc" required>
+												<option value="0" name="calentonc">0</option>
+  												<option value="1" name="calentonc">1</option>
+  												<option value="2" name="calentonc">2</option>
+  												<option value="3" name="calentonc">3</option>
+ 											    <option value="4" name="calentonc">4</option>
+ 											    <option value="5" name="calentonc">5</option>
+  												<option value="6" name="calentonc">6</option>
+  												<option value="7" name="calentonc">7</option>
+ 											    <option value="8" name="calentonc">8</option>
+ 											    <option value="9" name="calentonc">9</option>
+ 											    <option value="10" name="calentonc"> 10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Microondas</td>
+										<td>
+											<input type="radio" name="microondas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="microondas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="microondas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="microondas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select  name="microondasc" required>
+												<option value="0" name="microondasc">0</option>
+  												<option value="1" name="microondasc">1</option>
+  												<option value="2"  name="microondasc">2</option>
+  												<option value="3" name="microondasc">3</option>
+ 											    <option value="4" name="microondasc">4</option>
+ 											    <option value="5" name="microondasc">5</option>
+  												<option value="6" name="microondasc">6</option>
+  												<option value="7" name="microondasc">7</option>
+ 											    <option value="8" name="microondasc">8</option>
+ 											    <option value="9" name="microondasc">9</option>
+ 											    <option value="10" name="microondasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Estufa Electrica </td>
+										<td>
+											<input type="radio" name="estufa" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="estufa" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="estufa1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="estufa1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="estufac" required>
+												<option value="0" name="estufac">0</option>
+  												<option value="1" name="estufac">1</option>
+  												<option value="2" name="estufac">2</option>
+  												<option value="3" name="estufac">3</option>
+ 											    <option value="4" name="estufac">4</option>
+ 											    <option value="5" name="estufac">5</option>
+  												<option value="6" name="estufac">6</option>
+  												<option value="7" name="estufac">7</option>
+ 											    <option value="8" name="estufac">8</option>
+ 											    <option value="9" name="estufac">9</option>
+ 											    <option value="10" name="estufac">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Plancha y burro</td>
+										<td>
+											<input type="radio" name="plancha" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="plancha" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="plancha1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="plancha1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="planchac" required>
+												<option value="0" name="planchac">0</option>
+  												<option value="1" name="planchac">1</option>
+  												<option value="2" name="planchac">2</option>
+  												<option value="3" name="planchac">3</option>
+ 											    <option value="4" name="planchac">4</option>
+ 											    <option value="5" name="planchac">5</option>
+  												<option value="6" name="planchac">6</option>
+  												<option value="7" name="planchac">7</option>
+ 											    <option value="8" name="planchac">8</option>
+ 											    <option value="9" name="planchac">9</option>
+ 											    <option value="10" name="planchac">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Tanque de gas o gas natural</td>
+										<td>
+											<input type="radio" name="gas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="gas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="gas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="gas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select  name="gasc">
+												<option value="0" name="gasc">0</option>
+  												<option value="1" name="gasc">1</option>
+  												<option value="2" name="gasc">2</option>
+  												<option value="3" name="gasc">3</option>
+ 											    <option value="4" name="gasc">4</option>
+ 											    <option value="5" name="gasc">5</option>
+  												<option value="6" name="gasc">6</option>
+  												<option value="7" name="gasc">7</option>
+ 											    <option value="8" name="gasc">8</option>
+ 											    <option value="9" name="gasc">9</option>
+ 											    <option value="10" name="gasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Cobijas</td>
+										<td>
+											<input type="radio" name="cobijas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="cobijas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="cobijas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="cobijas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="cobijasc" required>
+												<option value="0" name="cobijasc">0</option>
+  												<option value="1" name="cobijasc">1</option>
+  												<option value="2" name="cobijasc">2</option>
+  												<option value="3" name="cobijasc">3</option>
+ 											    <option value="4" name="cobijasc">4</option>
+ 											    <option value="5" name="cobijasc">5</option>
+  												<option value="6" name="cobijasc">6</option>
+  												<option value="7" name="cobijasc">7</option>
+ 											    <option value="8" name="cobijasc">8</option>
+ 											    <option value="9" name="cobijasc">9</option>
+ 											    <option value="10" name="cobijasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Cortinas</td>
+										<td>
+											<input type="radio" name="cortinas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="cortinas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="cortinas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="cortinas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="cortinasc" required>
+												<option value="0" name="cortinasc">0</option>
+  												<option value="1" name="cortinasc">1</option>
+  												<option value="2" name="cortinasc">2</option>
+  												<option value="3" name="cortinasc">3</option>
+ 											    <option value="4" name="cortinasc">4</option>
+ 											    <option value="5" name="cortinasc">5</option>
+  												<option value="6" name="cortinasc">6</option>
+  												<option value="7" name="cortinasc">7</option>
+ 											    <option value="8" name="cortinasc" >8</option>
+ 											    <option value="9" name="cortinasc">9</option>
+ 											    <option value="10" name="cortinasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Aire acondicionado</td>
+										<td>
+											<input type="radio" name="aire" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="aire" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="aire1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="aire1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="airec" required>
+												<option value="0" name="airec">0</option>
+  												<option value="1" name="airec">1</option>
+  												<option value="2" name="airec">2</option>
+  												<option value="3" name="airec">3</option>
+ 											    <option value="4" name="airec">4</option>
+ 											    <option value="5" name="airec">5</option>
+  												<option value="6" name="airec">6</option>
+  												<option value="7" name="airec">7</option>
+ 											    <option value="8" name="airec">8</option>
+ 											    <option value="9" name="airec">9</option>
+ 											    <option value="10" name="airec">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Sillas</td>
+										<td>
+											<input type="radio" name="sillas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="sillas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="sillas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="sillas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select  name="sillasc" required>
+												<option value="0" name="sillasc">0</option>
+  												<option value="1" name="sillasc">1</option>
+  												<option value="2" name="sillasc">2</option>
+  												<option value="3" name="sillasc">3</option>
+ 											    <option value="4" name="sillasc">4</option>
+ 											    <option value="5" name="sillasc" >5</option>
+  												<option value="6" name="sillasc">6</option>
+  												<option value="7" name="sillasc">7</option>
+ 											    <option value="8" name="sillasc">8</option>
+ 											    <option value="9" name="sillasc">9</option>
+ 											    <option value="10" name="sillasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+									<tr class="row100 body">
+										<td colspan="2">Mesas</td>
+										<td>
+											<input type="radio" name="mesas" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="mesas" value="No" required>No</input>
+										</td>
+										<td>
+											<input type="radio" name="mesas1" value="Si" required>Si</input>
+										</td>
+										<td>
+											<input type="radio" name="mesas1" value="No" required>No</input>
+										</td>
+										<td>
+											<select name="mesasc"required>
+												<option value="0" name="mesasc">0</option>
+  												<option value="1" name="mesasc">1</option>
+  												<option value="2" name="mesasc">2</option>
+  												<option value="3" name="mesasc">3</option>
+ 											    <option value="4" name="mesasc">4</option>
+ 											    <option value="5" name="mesasc">5</option>
+  												<option value="6" name="mesasc">6</option>
+  												<option value="7" name="mesasc">7</option>
+ 											    <option value="8" name="mesasc">8</option>
+ 											    <option value="9" name="mesasc">9</option>
+ 											    <option value="10" name="mesasc">10</option>
+											</select>
+										</td>
+										
+									</tr>
+
+
+									
+								</tbody>
+
+							
+							</table>
+							<br><br>
+							</center>
+							
+								<input type="text" name="comentarios" id="comentarios" placeholder="comentarios (si hay algo mal en su casa escribalo aquí)" ><br><br>
+								<input title= "obligatorio" type="text" name="zona" id="zona" placeholder="zona" required/><br><br>
+								<input type="text" name="area" id="area" placeholder="area" onKeyUp="this.value=this.value.toLowerCase();" required/><br><br>
+								<input type="text" name="misioneros" id="misioneros" placeholder="misioner@s" required/><br><br>
+							<center>
+								<input type="submit">
+							</center>
+								
+							
+				
+						</div>
+					</div>
+				
+			</form>
+			
+
+		 
+								
+							
+<!--===============================================================================================-->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<img src="images/logo.jpg" width="200" height="115">
+
+				<p class="footer-company-name">Made by Elder Martinez &copy; 2019</p>
+				<p class="footer-company-name">  Secretario Ejecutivo</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Ramon Rivera Lara #7010</span><span>Fraccionamiento las Acequias C.P. :32617</span> Ciudad Juarez, Mexico</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>01 6563958941</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:1985906@churchofjesuschrist.org">1985906@churchofjesuschrist.org</a></p>
+				</div>
+
+			</div>
+
+			
+
+		</footer>							
+
+
+<!--===============================================================================================-->
+	
+	
+</body>
+</html>

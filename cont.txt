@@ -1,0 +1,13 @@
+
+pagina: db4free.net
+base de datos --- jzwork
+nombre de usuario --- martinez
+contraseña --- 100bautismos
+
+
+----
+
+hostname: db4free.net
+port is 3306
+nombre de usuario --- martinez
+contraseña --- 100bautismos
